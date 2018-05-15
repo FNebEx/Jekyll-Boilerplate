@@ -1,0 +1,9 @@
+source: _src
+destination: _dist
+sass:
+  sass_dir: _sass
+  style: compressed
+
+title: "Gulp with Jekyll"
+
+exclude: ['package.json', 'gulpfile.js', 'node_modules']

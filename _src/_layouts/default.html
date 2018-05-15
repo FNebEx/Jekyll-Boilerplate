@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body id="site">
+        <!-- As a link -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">J.B.G.</a>
+        </nav>
+        
+        <!-- <header>I am the header</header> -->
+        <main>
+            <div class="container">
+
+                {{ content }}
+            </div>
+        </main>
+        <footer> <p>Made by FNebEx</p></footer>
+
+        {% include js.html %}
+    </body>
+</html>

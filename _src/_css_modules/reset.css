@@ -1,0 +1,11 @@
+html, body{
+    height: 100vh;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.jumbotron{
+    margin-top: 2%;
+}
